@@ -2,7 +2,7 @@ const url = "https://jsonplaceholder.typicode.com/posts/1";
 async function fetchData(callback) {
   try {
     // Fetch data from the API
-    const response = await fetch(apiUrl);
+    const response = await fetch(url);
 
     // Wait for the promise to resolve and parse the JSON response
     const data = await response.json();
